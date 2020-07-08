@@ -35,7 +35,7 @@ class Song
   end
 
   def self.find_or_create_by_name(name)
-    self.find_by_name(name)
+    temp_namer = self.find_by_name(name) if self.find_by_name(name)
   end
 
 end
