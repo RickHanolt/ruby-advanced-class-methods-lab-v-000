@@ -44,7 +44,7 @@ class Song
   end
 
   def self.alphabetical
-    @@all.collect {|s| s.name}.sort
+    (@@all.collect {|s| s.name}.sort).collect {|a| self.find_by_name(a)}
   end
 
 end
