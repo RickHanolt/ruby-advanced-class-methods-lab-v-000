@@ -47,4 +47,7 @@ class Song
     (@@all.collect {|s| s.name}.sort).collect {|a| self.find_by_name(a)}
   end
 
+  def self.new_from_filename
+
+  end
 end
