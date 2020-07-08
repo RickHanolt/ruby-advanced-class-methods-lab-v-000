@@ -43,4 +43,7 @@ class Song
     temp_namer
   end
 
+  def self.alphabetical
+
+  end
 end
