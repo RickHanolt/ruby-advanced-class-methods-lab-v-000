@@ -7,6 +7,6 @@ class Song
 
   end
 
-  
+
 
 end
