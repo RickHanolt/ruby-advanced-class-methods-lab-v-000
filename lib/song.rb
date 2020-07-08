@@ -27,4 +27,6 @@ class Song
     @@all << new_song
     new_song
   end
+
+  
 end
