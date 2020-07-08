@@ -3,7 +3,9 @@ require 'pry'
 class Song
   attr
 
-  def initialize
+  def initialize()
 
+  end
+  
 
 end
