@@ -30,7 +30,7 @@ class Song
 
   def self.find_by_name(name)
     @@all.detect do |s|
-      s == self.name
+      s == name
       binding.pry
     end
   end
