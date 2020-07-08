@@ -4,9 +4,9 @@ class Song
   attr_reader :name
 
   @@all = []
-  
-  def initialize(name)
 
+  def initialize(name)
+    binding.pry
   end
 
 
