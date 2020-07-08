@@ -10,7 +10,7 @@ class Song
   end
 
   def self.create
-    self.new
-    binding.pry
+    @@all << self.new
   end
+  
 end
