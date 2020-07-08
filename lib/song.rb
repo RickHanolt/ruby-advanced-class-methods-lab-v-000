@@ -16,4 +16,5 @@ class Song
   def self.create
     self.new
     binding.pry
+  end
 end
