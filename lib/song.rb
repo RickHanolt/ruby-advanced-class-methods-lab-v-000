@@ -1,7 +1,7 @@
 require 'pry'
 
 class Song
-  attr_reader :name
+  attr_accessor :name
 
   @@all = []
 
@@ -16,8 +16,9 @@ class Song
   end
 
   def self.new_by_name(name)
-
+    new_song = self.new
+    @@all << new_song
+    new_song
   end
-
 
 end
