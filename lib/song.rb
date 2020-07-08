@@ -6,11 +6,11 @@ class Song
   @@all = []
 
   def initialize(name)
-    binding.pry
+
   end
 
   def self.all
-
+    binding.pry
   end
 
 end
