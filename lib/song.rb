@@ -29,7 +29,8 @@ class Song
   end
 
   def self.find_by_name(name)
-    @@all.each do |s|
-      s
+    @@all.detect do |s|
+      s == name
+
   end
 end
