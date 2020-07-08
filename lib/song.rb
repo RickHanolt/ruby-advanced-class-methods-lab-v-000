@@ -32,6 +32,6 @@ class Song
     @@all.detect do |s|
       s == name
     end
-
   end
+  
 end
