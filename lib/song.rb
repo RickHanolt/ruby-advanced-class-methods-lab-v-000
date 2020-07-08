@@ -47,7 +47,7 @@ class Song
     (@@all.collect {|s| s.name}.sort).collect {|a| self.find_by_name(a)}
   end
 
-  def self.new_from_filename
+  def self.new_from_filename(filename)
     artist_and_song = filename.split(".").first
     artist_and_song = artist_and_song.split(" - ")
     artist = artist_and_song[0]
