@@ -10,7 +10,7 @@ class Song
   end
 
   def save
-
+    binding.pry
   end
 
   def self.create
