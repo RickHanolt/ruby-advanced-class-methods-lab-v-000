@@ -37,7 +37,7 @@ class Song
   def self.find_or_create_by_name(name)
     temp_namer = self.find_by_name(name) if self.find_by_name(name)
     binding.pry
-    temp_namer ||= self.create_by_name
+    temp_namer ||= self.create_by_name(name)
     temp_namer
   end
 
