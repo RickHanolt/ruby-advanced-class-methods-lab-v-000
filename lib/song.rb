@@ -13,4 +13,7 @@ class Song
     @@all
   end
 
+  def self.create
+    self.new
+    binding.pry
 end
